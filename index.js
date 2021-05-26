@@ -40,8 +40,8 @@ var objects= [
 function searchByName(name) {
     var toSearch = 'Andrew';    
     for(var i=0; i<name.length; i++) {
-                if(name[i]['name'].indexOf(toSearch)!=-1) {
-                console.log(name[i]); 
+            if(name[i]['name'].indexOf(toSearch)!=-1) {
+				console.log(name[i]); 
             }
     }
 }
