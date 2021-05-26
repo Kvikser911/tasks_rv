@@ -41,11 +41,10 @@ function searchByName(name) {
     
     var toSearch = 'Andrew';    
     for(var i=0; i<name.length; i++) {
-        for(key in name[i]) {
-            if(name[i][key].indexOf(toSearch)!=-1) {
-                console.log(name[i]);
+       
+            if(name[i]['name'].indexOf(toSearch)!=-1) {
+                console.log(name[i]); 
             }
-        }
     }
 }
 searchByName(objects);
